@@ -135,9 +135,13 @@ li{
   content: ' ';
 }
 
+#main .main-block:first-of-type h2::after{ /* extends the decorator line */
+  top: 0;
+}
+
 /**** minor tweaks on the icon fonts ****/
 #main h2 > .fa-graduation-cap{
-  left: calc(var(--main-blocks-title-icon-offset-left) - 2pt);
+  left: calc(var(--main-blocks-title-icon-offset-left) - 1pt);
   top: 2.4pt;
 }
 
@@ -147,6 +151,16 @@ li{
 
 #main h2 > .fa-folder-open{
   top: 1.8pt;
+}
+
+#main h2 > .fa-laptop-code{
+  top: 3pt;
+  left: -20.7pt;
+}
+
+#main h2 > .fa-user-tie{
+  top: 1.7pt;
+  left: -18.5pt;
 }
 
 /**** individual row blocks (date - decorator - details) ****/
