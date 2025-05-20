@@ -10,7 +10,7 @@
 :root{
   --page-width: 8.5in;
   --page-height: 11in;
-  --main-width: 6.55in;
+  --main-width: 6.45in;
   --sidebar-width: calc(var(--page-width) - var(--main-width));
   --decorator-horizontal-margin: 0.2in;
 
@@ -52,7 +52,7 @@ li{
 #main{
   float: left;
   width: var(--main-width);
-  padding: 0.2in 0.2in 0 0.2in;
+  padding: 0.30in 0.25in 0 0.25in;
   font-size: 7pt;
 }
 
@@ -61,7 +61,7 @@ li{
   position: relative; /* for disclaimer */
   width: var(--sidebar-width);
   height: 100%;
-  padding: 0.68in var(--sidebar-horizontal-padding);
+  padding: 0.78in var(--sidebar-horizontal-padding);
   background-color: #f2f2f2;
   font-size: 8.5pt;
 }
@@ -353,7 +353,7 @@ li{
 #disclaimer{
   position: absolute;
   bottom: var(--sidebar-horizontal-padding);
-  right: calc(var(--sidebar-horizontal-padding) - 4.5pt);
+  right: calc(var(--sidebar-horizontal-padding) - 1pt);
   font-size: 7.5pt;
   font-style: italic;
   line-height: 1.1;
