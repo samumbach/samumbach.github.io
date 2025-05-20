@@ -260,11 +260,11 @@ li{
   position: relative;
   right: 3pt;
   top: 0.25pt;
-  font-family: FontAwesome;
-  font-weight: normal;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
   font-style: normal;
   text-decoration: inherit;
-  content: "\f041";
+  content: "\f3c5";
 }
 
 /***** fine-tunes on the lists... *****/
