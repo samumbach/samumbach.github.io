@@ -341,16 +341,6 @@ li{
   text-align: right;
 }
 
-#contact a{
-  text-decoration: none;
-  color: inherit;
-}
-
-#contact a:hover,
-#contact a:active{
-  text-decoration: underline;
-}
-
 #skills{
   line-height: 1.5;
 }
@@ -363,7 +353,7 @@ li{
 #disclaimer{
   position: absolute;
   bottom: var(--sidebar-horizontal-padding);
-  right: var(--sidebar-horizontal-padding);
+  right: calc(var(--sidebar-horizontal-padding) - 4.5pt);
   font-size: 7.5pt;
   font-style: italic;
   line-height: 1.1;
@@ -376,6 +366,19 @@ li{
   font-family: "Source Code Pro";
   font-weight: 400;
   font-style: normal;
+}
+
+#contact a,
+#disclaimer a{
+  text-decoration: none;
+  color: inherit;
+}
+
+#contact a:hover,
+#contact a:active,
+#disclaimer a:hover,
+#disclaimer a:active{
+  text-decoration: underline;
 }
 
 /* fonts */
