@@ -61,7 +61,7 @@ li{
   position: relative; /* for disclaimer */
   width: var(--sidebar-width);
   height: 100%;
-  padding: 0.6in var(--sidebar-horizontal-padding);
+  padding: 0.68in var(--sidebar-horizontal-padding);
   background-color: #f2f2f2;
   font-size: 8.5pt;
 }
@@ -138,15 +138,15 @@ li{
 /**** minor tweaks on the icon fonts ****/
 #main h2 > .fa-graduation-cap{
   left: calc(var(--main-blocks-title-icon-offset-left) - 2pt);
-  top: 2pt;
+  top: 2.4pt;
 }
 
 #main h2 > .fa-suitcase{
-  top: 1pt;
+  top: 1.4pt;
 }
 
 #main h2 > .fa-folder-open{
-  top: 1.5pt;
+  top: 1.8pt;
 }
 
 /**** individual row blocks (date - decorator - details) ****/
@@ -248,6 +248,7 @@ li{
 
 .details .location{
   float: right;
+  color: #888;
 }
 
 .details div{
@@ -282,6 +283,7 @@ li{
   position: relative;
   margin-left: -4.25pt;
   content: '• ';
+  color: #666;
 }
 
 .details .concise ul{
@@ -309,7 +311,7 @@ li{
 }
 
 .side-block{
-  margin-top: 0.3in;
+  margin-top: 0.2in;
 }
 
 #contact ul{
@@ -320,7 +322,7 @@ li{
   line-height: 1.75;
 }
 
-#contact li > i{
+#contact li > i, #contact li > a > i{
   width: 9pt; /* for text alignment */
   text-align: right;
 }
@@ -363,12 +365,13 @@ li{
 }
 
 /* fonts */
-.subtitle, .date, #main h2
+.subtitle, .date, #main h2, #sidebar h1
 {
   font-family: "IBM Plex Mono", monospace;
   text-transform: none;
+  /*text-transform: lowercase;*/
 }
 
 .details > div {
-  font-family: "Bitter", "Open Sans", sans-serif;
+  /*font-family: "Bitter", "Domine", "Open Sans", sans-serif;*/
 }
