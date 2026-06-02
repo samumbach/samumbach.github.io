@@ -392,3 +392,7 @@ li{
 .details > div {
   /*font-family: "Bitter", "Domine", "Open Sans", sans-serif;*/
 }
+
+.hidden {
+  display: none;
+}
